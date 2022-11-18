@@ -1,0 +1,43 @@
+.donut-frame {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toggle-btn {
+    z-index: 1;
+    display: inline-block;
+    padding: 0.2em;
+    border: 0.16em solid #ffffff;
+    margin: 0 0.3em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: ComputerPixel;
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    transition: all 0s;
+    border-radius: 5px;
+}
+#toggle-btn:hover {
+    color: grey;
+    border-color: grey;
+}
+#toggle-btn:active {
+    color: #bbbbbb;
+    border-color: #bbbbbb;
+}
+@media all and (max-width: 30em) {
+    toggle-btn {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+#ascii {
+    font-style: mono;
+}
