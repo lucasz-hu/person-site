@@ -7,13 +7,13 @@ import Taskbar from "./components/Taskbar";
 import SpinningDonut from "./programs/SpinningDonut";
 import AboutMe from "./programs/AboutMe";
 import MyProjects from "./programs/MyProjects";
-import Donut from "./programs/Donut";
 
 /* TODO: 
   Add close icons to windows
   Add external links to icons
   Add taskbar
   Commandline
+  Update icons
 
   Add linkedin icon
   Add email icon
@@ -34,8 +34,8 @@ const App = () => {
             show: false,
             toRender: <SpinningDonut />,
             background: "bg-black",
-            minX: window.innerWidth / 2 - window.innerWidth / 15,
-            minY: window.innerHeight * 0.75 - window.innerHeight / 20,
+            minX: 760,
+            minY: 700,
         },
     ]);
 

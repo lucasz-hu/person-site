@@ -15,7 +15,8 @@
     "react-scripts": "5.0.1",
     "react-winbox": "^1.4.2",
     "web-vitals": "^2.1.4",
-    "winbox-react": "^1.0.6"
+    "winbox-react": "^1.0.6",
+    "xp.css": "^0.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
